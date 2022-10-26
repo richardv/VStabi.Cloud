@@ -6,15 +6,15 @@ trigger:
   paths:
     include:
       - deploy/build.yaml
-      - src/VBar.Setups/*
+      - src/VStabi.CloudReader/*
 
 variables:
   - name: solution
-    value: "src/VBar.Setups.sln"
+    value: "src/VStabi.CloudReader.sln"
   - name: buildConfiguration
     value: "Release"
   - name: projectPath
-    value: "src/VBar.Setups"
+    value: "src/VStabi.CloudReader"
 
 pool:
   vmImage: "windows-latest"
